@@ -31,6 +31,11 @@ We currently offer three pipelines, _Rich_, _Robust_ and _RP_. _Rich_ is the def
     
     This is significant more adoptive to head rotation but less accurate. It is designed to work better when the number of profiles is extremely small (<10). Additionally, **while unsupported officially**, this pipeline would function better than the other two if the actor changes (the session contains footage of multiple actors).
 
+3. _RP+_ and _Robust+_
+   
+    Based on the same pipeline as RP and Robust, RP+ and Robust+ uses a new facial landmark tracker made internally. These new pipelines are experimental and are subject to change.
+
+
 By choosing the pipeline that best suits your situation, you can more easily achieve your goals of reducing your workload and improving quality.
 
 Note that there you can change the pipeline anytime during the project. You will only have to check the **reprocess** box when processing the video, feel free to try the pipelines and see what works the best for you. 
