@@ -81,8 +81,8 @@ To demonstrate the strength of different pipelines, we prepare 4 scenarios that 
 
 | 5 Pipeline Comparison Video |
 | --------- |
-| <video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/25.10/baseline/Merged_videos/ITA_Corpus_No04_Normal_Nagaki_t01__ROM_50_Video_00_LQ.mp4" type="video/mp4"></video> |
-| <video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/25.10/baseline/Merged_videos/HMC_Side_Nagaki_t01__ROM_50_Video_00_LQ.mp4" type="video/mp4"></video> |
+| <video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10/baseline/Merged_videos/ITA_Corpus_No04_Normal_Nagaki_t01__ROM_50_Video_00_LQ.mp4" type="video/mp4"></video> |
+| <video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10/baseline/Merged_videos/HMC_Side_Nagaki_t01__ROM_50_Video_00_LQ.mp4" type="video/mp4"></video> |
 
 </details>
 <br>
