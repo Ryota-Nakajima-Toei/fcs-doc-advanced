@@ -74,7 +74,6 @@ msgid "Pipeline"
 msgstr "Pipeline 一覧"
 
 #: ../../experiments/002_pipeline_comparison.md:19
-#, fuzzy
 msgid ""
 "For those who want more information about the pipelines: We currently "
 "offer three pipelines officially, _Rich_, _Robust_ and _RP_. _Rich_ is "
