@@ -81,9 +81,7 @@ msgid ""
 "the default pipeline up until FCS 25.04, and starting with FCS 25.07 the "
 "default is _RP_.  Additionally, we offer two experimental pipelines, "
 "_RP+_ and _Robust+_, starting with FCS 25.10."
-msgstr ""
-"パイプラインについて詳細を知りたい方へ<br>現在、Rich、Robust、RPの3つのパイプラインを提供しています。<br><br>FCS "
-"25.04まではRichが、FCS 25.07からはRPがデフォルトのパイプラインとなっています。"
+msgstr "パイプラインについて詳細を知りたい方へ<br>現在、Rich、Robust、RPの3つのパイプラインを正式に提供しています。<br>FCS 25.04まではRichが、FCS 25.07からはRPがデフォルトのパイプラインとなっています。<br>また、FCS 25.10からは、RP+、Robust+の2つの実験的なパイプラインを実装しました。"
 
 #: ../../experiments/002_pipeline_comparison.md:23
 msgid "_Rich_"
@@ -131,7 +129,7 @@ msgid ""
 "Based on the same pipeline as RP and Robust, RP+ and Robust+ uses a new "
 "facial landmark tracker made internally. These new pipelines are "
 "experimental and are subject to change."
-msgstr "RP+パイプライン・Robust+パイプラインは、RP・Robustパイプラインをベースとして、ツークン研究所で開発された新しい顔ランドマークトラッカーを使用しています。<br>これらの新しいパイプラインは実験的なものであり、今後変更される可能性があります。"
+msgstr "これらのパイプラインは、RP・Robustパイプラインをそれぞれベースとして、ツークン研究所で開発された新しい顔ランドマークトラッカーを使用しています。<br>これらの新しいパイプラインは実験的なものであり、今後変更される可能性があります。"
 
 #: ../../experiments/002_pipeline_comparison.md:40
 msgid ""
