@@ -26,7 +26,7 @@ msgstr "FCS Internal Processing"
 
 #: ../../002_processing.md:2
 msgid "このページでは、アクターの画像から表情をトラッキングし、キャラクターの表情を出力するまでの流れについて説明します。"
-msgstr ""
+msgstr "In this page, we explains the workflow, from tracking the actor's facial expressions in video images to outputting the character's expressions."
 
 #: ../../002_processing.md:8
 msgid ""
