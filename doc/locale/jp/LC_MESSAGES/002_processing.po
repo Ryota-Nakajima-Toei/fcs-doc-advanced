@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Doc Advanced latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-29 12:27+0000\n"
+"POT-Creation-Date: 2025-10-31 10:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -73,29 +73,38 @@ msgid "ブレンドシェイプの選択方法"
 msgstr ""
 
 #: ../../002_processing.md:60
-msgid "ControllerウィンドウにあるControllerテーブルのヘッダーを右クリックするとコンテキストメニューが表示されるので、"
+msgid "ControllerウィンドウにあるControllerテーブルのヘッダーを右クリックするとコンテキストメニューが表示されるので、\"blendshapes\"の設定を有効化し、コントローラーに対してブレンドシェイプを選択します。設定を完了後、Saveボタンを押して保存します。"
 msgstr ""
 
 #: ../../002_processing.md:66
-msgid "\"blendshape\"を有効化し"
+msgid "Controllerウィンドウで、\"blendshapes\"の設定を有効化"
 msgstr ""
 
 #: ../../002_processing.md:73
-msgid "設定したいコントローラーを選択しブレンドシェイプを設定 ※最後にコントローラーの設定を保存する必要があります。"
+msgid "コントローラーに対して、ブレンドシェイプを選択し、設定する"
 msgstr ""
 
-#: ../../002_processing.md:86
+#: ../../002_processing.md:85
 msgid "4. キャラクターの表情に変換"
 msgstr ""
 
-#: ../../002_processing.md:92
+#: ../../002_processing.md:91
 msgid ""
 "最後にアクターの表情をキャラクターの表情に変換してアニメーションを出力します。この変換プロセスの説明はあくまでイメージであり、実際の計算とは異なる場合があります。"
 " "
 "まず、ここまでの工程で得られるアクターの表情に対して、類似するプロファイルを選出しその比率を計算します。その後、それぞれのプロファイルに対応したキャラクターの表情を、計算された比率に応じてブレンドすることで、アクターの表情をキャラクターの表情へと変換します。"
 msgstr ""
 
-#: ../../002_processing.md:99
+#: ../../002_processing.md:98
 msgid "類似するプロファイルの比率からキャラクターの表情をブレンド"
 msgstr ""
+
+#~ msgid "ControllerウィンドウにあるControllerテーブルのヘッダーを右クリックするとコンテキストメニューが表示されるので、"
+#~ msgstr ""
+
+#~ msgid "\"blendshape\"を有効化し"
+#~ msgstr ""
+
+#~ msgid "設定したいコントローラーを選択しブレンドシェイプを設定 ※最後にコントローラーの設定を保存する必要があります。"
+#~ msgstr ""
 
