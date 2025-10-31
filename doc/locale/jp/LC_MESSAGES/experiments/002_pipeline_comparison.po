@@ -200,7 +200,7 @@ msgstr "動画ギャラリー"
 
 #: ../../experiments/002_pipeline_comparison.md
 msgid "5 Pipeline Comparison Video"
-msgstr "パイプラインの比較"
+msgstr "パイプラインの比較動画"
 
 #: ../../experiments/002_pipeline_comparison.md
 msgid ""
@@ -246,7 +246,7 @@ msgstr ""
 
 #: ../../experiments/002_pipeline_comparison.md
 msgid "Performance Video"
-msgstr ""
+msgstr "演技動画"
 
 #: ../../experiments/002_pipeline_comparison.md
 msgid "Rich"
