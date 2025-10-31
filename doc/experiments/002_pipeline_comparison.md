@@ -17,7 +17,8 @@ Each of the pipelines are designed with different usage scenarios in mind. Here 
 
 ### Pipeline
 For those who want more information about the pipelines:
-We currently offer three pipelines, _Rich_, _Robust_ and _RP_. _Rich_ is the default pipeline up until FCS 25.04, and starting with FCS 25.07 the default is RP. 
+We currently offer three pipelines officially, _Rich_, _Robust_ and _RP_. _Rich_ is the default pipeline up until FCS 25.04, and starting with FCS 25.07 the default is _RP_. 
+Additionally, we offer two experimental pipelines, _RP+_ and _Robust+_, starting with FCS 25.10.　
 
 1. _Rich_
 
