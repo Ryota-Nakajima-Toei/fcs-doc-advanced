@@ -36,7 +36,7 @@ msgstr "Perform tracking on the actor's facial images (1). After correcting the 
 
 #: ../../002_processing.md:19
 msgid "1. フェイシャルトラッキング"
-msgstr "1. Facial Tracking"
+msgstr "1．Facial Tracking"
 
 #: ../../002_processing.md:21
 msgid ""
@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../../002_processing.md:40
 msgid "2. 顔の向きを補正"
-msgstr ""
+msgstr "2．Correct Face Orientation"
 
 #: ../../002_processing.md:42
 msgid "激しい動作を伴う演技では、カメラの揺れなどにより動画における顔の位置がずれることがしばしば発生します。また、休憩などでカメラを着脱することによりカメラの装着位置が変化してしまい、動画における顔の位置がプロファイルにおける位置からずれてしまうこともあります。このようなカメラの揺れや位置変化による影響を軽減するために、パイプライン名に\"RP\"が入っているパイプラインでは、顔の向きがNeutralのプロファイルと同じ向きになるように補正します。"
@@ -55,7 +55,7 @@ msgstr ""
 
 #: ../../002_processing.md:49
 msgid "3. トラッキング情報の取捨選択"
-msgstr ""
+msgstr "3．Select / Filter Tracking Information"
 
 #: ../../002_processing.md:51
 msgid "FCSはユーザーのキャラクターモデルの内部構造を直接参照していないので、どのコントローラーが顔のどの部分に対応しているかという情報を自動的に取得できません。そのため、コントローラー値への変換に使用されるトラッキング情報には、目的のコントローラーとは関係ない動きが含まれている場合があります。"
@@ -87,7 +87,7 @@ msgstr ""
 
 #: ../../002_processing.md:85
 msgid "4. キャラクターの表情に変換"
-msgstr ""
+msgstr "4．Convert To Character Facial Expressions"
 
 #: ../../002_processing.md:91
 msgid ""
