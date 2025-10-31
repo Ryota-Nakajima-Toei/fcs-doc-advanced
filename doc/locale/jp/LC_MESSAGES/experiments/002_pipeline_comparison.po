@@ -47,7 +47,7 @@ msgstr "[どのパイプラインを使用すべきか　フローチャート](
 
 #: ../../experiments/002_pipeline_comparison.md:9
 msgid "[Pipeline](#pipeline)"
-msgstr "[Pipeline 一覧](#pipeline)"
+msgstr "[パイプライン一覧](#pipeline)"
 
 #: ../../experiments/002_pipeline_comparison.md:10
 msgid "[Experiment Scenarios](#experiment-scenarios)"
@@ -55,7 +55,7 @@ msgstr "[検証詳細](#experiment-scenarios)"
 
 #: ../../experiments/002_pipeline_comparison.md:11
 msgid "[Gallery](#gallery)"
-msgstr "[Gallery](#gallery)"
+msgstr "[動画ギャラリー](#gallery)"
 
 #: ../../experiments/002_pipeline_comparison.md:12
 msgid "[Conclusion](#conclusion)"
@@ -71,7 +71,7 @@ msgstr "![](../assets/benchmark_pipeline_Japanese.svg)"
 
 #: ../../experiments/002_pipeline_comparison.md:18
 msgid "Pipeline"
-msgstr "Pipeline 一覧"
+msgstr "パイプライン一覧"
 
 #: ../../experiments/002_pipeline_comparison.md:19
 msgid ""
@@ -80,7 +80,7 @@ msgid ""
 "the default pipeline up until FCS 25.04, and starting with FCS 25.07 the "
 "default is _RP_.  Additionally, we offer two experimental pipelines, "
 "_RP+_ and _Robust+_, starting with FCS 25.10."
-msgstr "パイプラインについて詳細を知りたい方へ<br>現在、Rich、Robust、RPの3つのパイプラインを正式に提供しています。<br>FCS 25.04まではRichが、FCS 25.07からはRPがデフォルトのパイプラインとなっています。<br>また、FCS 25.10からは、RP+、Robust+の2つの実験的なパイプラインを実装しました。"
+msgstr "パイプラインについて詳細を知りたい方へ<br><br>現在、Rich、Robust、RPの3つのパイプラインを正式に提供しています。<br>FCS 25.04まではRichが、FCS 25.07からはRPがデフォルトのパイプラインとなっています。<br>また、FCS 25.10からは、RP+、Robust+の2つの実験的なパイプラインを実装しました。"
 
 #: ../../experiments/002_pipeline_comparison.md:23
 msgid "_Rich_"
@@ -196,10 +196,9 @@ msgstr ""
 
 #: ../../experiments/002_pipeline_comparison.md:71
 msgid "Gallery"
-msgstr ""
+msgstr "動画ギャラリー"
 
 #: ../../experiments/002_pipeline_comparison.md
-#, fuzzy
 msgid "5 Pipeline Comparison Video"
 msgstr "パイプラインの比較"
 
