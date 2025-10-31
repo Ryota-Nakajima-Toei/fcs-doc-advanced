@@ -36,7 +36,7 @@ msgstr "Perform tracking on the actor's facial images (1). After correcting the 
 
 #: ../../002_processing.md:19
 msgid "1. フェイシャルトラッキング"
-msgstr "1. Facial Tracking"
+msgstr "Facial Tracking"
 
 #: ../../002_processing.md:21
 msgid ""
