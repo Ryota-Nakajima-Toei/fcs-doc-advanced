@@ -26,17 +26,17 @@ msgstr "FCS Internal Processing"
 
 #: ../../002_processing.md:2
 msgid "このページでは、アクターの画像から表情をトラッキングし、キャラクターの表情を出力するまでの流れについて説明します。"
-msgstr "In this page, we explains the workflow, from tracking the actor's facial expressions in video images to outputting the character's expressions."
+msgstr "In this page, we explains FCS processing, from tracking the actor's facial expressions in video images to outputting the character's expressions."
 
 #: ../../002_processing.md:8
 msgid ""
 "アクターの画像に対しフェイシャルトラッキングを実行し (1) 、　 顔の向きの補正 (2) やトラッキング情報を取捨選択 (3) の後、 "
 "キャラクターの表情が出力されます (4) 。"
-msgstr ""
+msgstr "Perform tracking on the actor's facial images (1). After correcting the head orientation (2), and selecting / filtering the tracking information (3), output the character's expression (4)."
 
 #: ../../002_processing.md:19
 msgid "1. フェイシャルトラッキング"
-msgstr ""
+msgstr "1. Facial Tracking"
 
 #: ../../002_processing.md:21
 msgid ""
