@@ -77,7 +77,7 @@ msgid ""
 "/fcs-doc/25.10/en/008_profile.html)"
 msgstr ""
 "[FCSのプロファイル作成方法についてはこちらをご覧ください。](https://zukunfcs.github.io/fcs-"
-"doc/latest/jp/008_profile.html)"
+"doc/25.10/jp/008_profile.html)"
 
 #: ../../001_preliminary.md:17
 msgid "ROM"
