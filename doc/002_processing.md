@@ -57,21 +57,20 @@ FCSはユーザーのキャラクターモデルの内部構造を直接参照�
 
 ### ブレンドシェイプの選択方法
 
-ControllerウィンドウにあるControllerテーブルのヘッダーを右クリックするとコンテキストメニューが表示されるので、
+ControllerウィンドウにあるControllerテーブルのヘッダーを右クリックするとコンテキストメニューが表示されるので、"blendshapes"の設定を有効化し、コントローラーに対してブレンドシェイプを選択します。設定を完了後、Saveボタンを押して保存します。
 
 ```{figure} ./assets/selective_bs_ui_01.png
 :width: 80%
 :align: center
 
-"blendshape"を有効化し
+Controllerウィンドウで、"blendshapes"の設定を有効化
 ```
 
 ```{figure} ./assets/selective_bs_ui_02.png
 :width: 80%
 :align: center
 
-設定したいコントローラーを選択しブレンドシェイプを設定
-※最後にコントローラーの設定を保存する必要があります。
+コントローラーに対して、ブレンドシェイプを選択し、設定する
 ```
 
 
