@@ -71,7 +71,7 @@ msgstr ""
 
 #: ../../002_processing.md:58
 msgid "ブレンドシェイプの選択方法"
-msgstr ""
+msgstr "How to use blendshapes settings"
 
 #: ../../002_processing.md:60
 msgid "ControllerウィンドウにあるControllerテーブルのヘッダーを右クリックするとコンテキストメニューが表示されるので、\"blendshapes\"の設定を有効化し、コントローラーに対してブレンドシェイプを選択します。設定を完了後、Saveボタンを押して保存します。"
@@ -79,11 +79,11 @@ msgstr ""
 
 #: ../../002_processing.md:66
 msgid "Controllerウィンドウで、\"blendshapes\"の設定を有効化"
-msgstr ""
+msgstr "In Controller window, enable the “blendshapes” settings."
 
 #: ../../002_processing.md:73
 msgid "コントローラーに対して、ブレンドシェイプを選択し、設定する"
-msgstr ""
+msgstr "Select blendshapes and save settings for facial controller."
 
 #: ../../002_processing.md:85
 msgid "4. キャラクターの表情に変換"
@@ -98,7 +98,7 @@ msgstr ""
 
 #: ../../002_processing.md:98
 msgid "類似するプロファイルの比率からキャラクターの表情をブレンド"
-msgstr ""
+msgstr "Blend and output character expressions, based on the ratio of similar profiles."
 
 #~ msgid "ControllerウィンドウにあるControllerテーブルのヘッダーを右クリックするとコンテキストメニューが表示されるので、"
 #~ msgstr ""
