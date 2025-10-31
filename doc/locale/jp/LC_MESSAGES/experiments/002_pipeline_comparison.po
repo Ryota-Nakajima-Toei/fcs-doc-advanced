@@ -129,7 +129,7 @@ msgid ""
 "Based on the same pipeline as RP and Robust, RP+ and Robust+ uses a new "
 "facial landmark tracker made internally. These new pipelines are "
 "experimental and are subject to change."
-msgstr ""
+msgstr "RP+パイプライン・Robust+パイプラインは、RP・Robustパイプラインをベースとして、ツークン研究所で開発された新しい顔ランドマークトラッカーを使用しています。<br>これらの新しいパイプラインは実験的なものであり、今後変更される可能性があります。"
 
 #: ../../experiments/002_pipeline_comparison.md:39
 msgid ""
