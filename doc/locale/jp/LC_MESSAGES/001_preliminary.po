@@ -71,13 +71,10 @@ msgid ""
 msgstr "プロファイルとは、アクターの1枚の画像とそれと同じ表情になるように調整されたキャラクターのペアデータのことを指します。<br>これはFCSで動画から特定のフレームを選択しMayaでキャラクターのリターゲットを行うことで作成されます。"
 
 #: ../../001_preliminary.md:15
-#, fuzzy
 msgid ""
 "[Learn about how to create profiles in FCS...](https://zukunfcs.github.io"
 "/fcs-doc/25.10/en/008_profile.html)"
-msgstr ""
-"[FCSのプロファイル作成方法についてはこちらをご覧ください。](https://zukunfcs.github.io/fcs-"
-"doc/25.10/jp/008_profile.html)"
+msgstr "[FCSのプロファイル作成方法についてはこちらをご覧ください。](https://zukunfcs.github.io/fcs-doc/25.10/jp/008_profile.html)"
 
 #: ../../001_preliminary.md:17
 msgid "ROM"
