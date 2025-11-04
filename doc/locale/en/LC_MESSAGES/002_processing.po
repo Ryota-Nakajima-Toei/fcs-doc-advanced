@@ -43,7 +43,7 @@ msgid ""
 "まず、画像からアクターの表情を取得するためにフェイシャルトラッキングを実行します。FCSのオートトラッキング機能では、画像に対してアクターの顔の3次元モデル（アクターモデル）を構築します。これにより、目や口の輪郭や鼻の位置を表す点（ランドマーク）の座標や、表情パラメータ（ARKitブレンドシェイプ）といった情報を取得します。"
 "   "
 "トラッキングに使用するモデルはパイプラインによって異なり、パイプライン名に\"+\"がついているものはツークン研究所の新規独自モデルになります。"
-msgstr "First, facial tracking is started to obtain the actor's facial expression from video images. The FCS auto-tracking system generates the 3D model of the actor's face (actor model) based on video image. As a result, we get facial information, such as the coordinates of contours points of the actor's eyes and mouth, and the position of the nose (landmarks), as well as expression parameters (ARKit blendshapes).<br><br>3D model used for facial tracking varies by pipeline; pipelines with "+" in their name utilize a new proprietary model developed by TOEI Zukun Laboratory."
+msgstr "First, facial tracking is started to obtain the actor's facial expression from video images. The FCS auto-tracking system generates the 3D model of the actor's face (actor model) based on video image. As a result, we get facial information, such as the coordinates of contours points of the actor's eyes and mouth, and the position of the nose (landmarks), as well as expression parameters (ARKit blendshapes).<br><br>The 3D model used for facial tracking varies by pipeline; pipelines with "+" in their name utilize a new proprietary model developed by TOEI Zukun Laboratory."
 
 #: ../../002_processing.md:40
 msgid "2. 顔の向きを補正"
@@ -51,7 +51,7 @@ msgstr "2．Correct Face Orientation"
 
 #: ../../002_processing.md:42
 msgid "激しい動作を伴う演技では、カメラの揺れなどにより動画における顔の位置がずれることがしばしば発生します。また、休憩などでカメラを着脱することによりカメラの装着位置が変化してしまい、動画における顔の位置がプロファイルにおける位置からずれてしまうこともあります。このようなカメラの揺れや位置変化による影響を軽減するために、パイプライン名に\"RP\"が入っているパイプラインでは、顔の向きがNeutralのプロファイルと同じ向きになるように補正します。"
-msgstr ""
+msgstr "In performances involving intense movement, the actor's face often shifts position in the video due to factors like camera shake. Furthermore, removing and reattaching the camera (e.g., during breaks) can change its mounting position, causing the face's position in the video to shift relative to its position in the tracking profiles. To mitigate the effects of such camera shake and position changes, the pipeline called “RP” applies a correction process so that the face orientation aligns with Neutral profile orientation."
 
 #: ../../002_processing.md:49
 msgid "3. トラッキング情報の取捨選択"
