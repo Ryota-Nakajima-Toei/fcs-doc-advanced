@@ -67,7 +67,7 @@ msgstr "To further improve accuracy, FCS is equipped with ARKit blendshapes sele
 
 #: ../../002_processing.md:55
 msgid "※このブレンドシェイプ選択機能はオプショナルな機能であり、設定をしなくても問題なく動作するため、迷った場合はデフォルト設定での使用を推奨します。"
-msgstr "※Blendshape selection settings is optional, and FCS system operates correctly without it being configured; therefore, if you are unsure, we recommend using the default settings."
+msgstr "※Blendshape selection settings is optional, and FCS operates correctly without this settings; therefore, if you are unsure, we recommend using default settings."
 
 #: ../../002_processing.md:58
 msgid "ブレンドシェイプの選択方法"
@@ -75,7 +75,7 @@ msgstr "How to use blendshapes settings"
 
 #: ../../002_processing.md:60
 msgid "ControllerウィンドウにあるControllerテーブルのヘッダーを右クリックするとコンテキストメニューが表示されるので、\"blendshapes\"の設定を有効化し、コントローラーに対してブレンドシェイプを選択します。設定を完了後、Saveボタンを押して保存します。"
-msgstr ""
+msgstr "In Controller window, right-click the header of Controller table to display the context menu. Then, enable the "blendshapes" setting and select the blendshapes for the controller. Once settings are complete, click the "Save" button to save them."
 
 #: ../../002_processing.md:66
 msgid "Controllerウィンドウで、\"blendshapes\"の設定を有効化"
