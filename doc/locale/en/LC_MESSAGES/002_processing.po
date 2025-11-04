@@ -94,7 +94,7 @@ msgid ""
 "最後にアクターの表情をキャラクターの表情に変換してアニメーションを出力します。この変換プロセスの説明はあくまでイメージであり、実際の計算とは異なる場合があります。"
 " "
 "まず、ここまでの工程で得られるアクターの表情に対して、類似するプロファイルを選出しその比率を計算します。その後、それぞれのプロファイルに対応したキャラクターの表情を、計算された比率に応じてブレンドすることで、アクターの表情をキャラクターの表情へと変換します。"
-msgstr ""
+msgstr "Finally, the actor's facial expressions are converted into the character's facial expressions, and the animation is output. The figure below illustrates a general overview of conversion process, but this is an conceptual image, and may differ from actual calculation.<br><br>First, we select similar profiles and calculate their ratio based on the actor's expressions obtained from the processes described up to this point. Next, the actor's expressions are converted into the character's expressions by blending the corresponding character profiles according to the calculated ratios."
 
 #: ../../002_processing.md:98
 msgid "類似するプロファイルの比率からキャラクターの表情をブレンド"
