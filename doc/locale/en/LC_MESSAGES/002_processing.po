@@ -59,15 +59,15 @@ msgstr "3．Select / Filter Tracking Information"
 
 #: ../../002_processing.md:51
 msgid "FCSはユーザーのキャラクターモデルの内部構造を直接参照していないので、どのコントローラーが顔のどの部分に対応しているかという情報を自動的に取得できません。そのため、コントローラー値への変換に使用されるトラッキング情報には、目的のコントローラーとは関係ない動きが含まれている場合があります。"
-msgstr ""
+msgstr "FCS cannot automatically determine which controller corresponds to which facial parts of the actor, because it does not directly reference the internal structure of the user-registered character model. Therefore, facial tracking information used during the conversion to controller values may contain movements unrelated to the target controller."
 
 #: ../../002_processing.md:53
 msgid "そこでより精度を高めるために、FCSにはコントローラーごとのブレンドシェイプ選択機能を搭載しています。これにより、各コントローラーに関連するブレンドシェイプとそれに伴い変位するランドマークを手動で限定することができ、コントローラー値への変換に使用されるトラッキング情報を絞ることができます。"
-msgstr ""
+msgstr "To further improve accuracy, FCS is equipped with ARKit blendshapes selection settings for each controller. This allows for manually limiting blendshapes relevant to each controller and the landmarks that consequently change position, thereby narrowing down the tracking information used for conversion to controller values."
 
 #: ../../002_processing.md:55
 msgid "※このブレンドシェイプ選択機能はオプショナルな機能であり、設定をしなくても問題なく動作するため、迷った場合はデフォルト設定での使用を推奨します。"
-msgstr ""
+msgstr "※Blendshape selection settings is optional, and FCS system operates correctly without it being configured; therefore, if you are unsure, we recommend using the default settings."
 
 #: ../../002_processing.md:58
 msgid "ブレンドシェイプの選択方法"
