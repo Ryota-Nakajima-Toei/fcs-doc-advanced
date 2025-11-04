@@ -1,0 +1,268 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="jp" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>以前のバージョン（25.07）との比較 &mdash; FCS Doc Advanced 25.10 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=599cc3ad"></script>
+      <script src="../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #2980B9" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            FCS Doc Advanced
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">コンテンツ</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../000_introduction.html">はじめに</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../000_introduction.html#what-is-fcs-and-what-does-it-do-for-me">FCSとは？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../000_introduction.html#who-is-this-page-for">このサイトについて</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../001_preliminary.html">予備知識</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../001_preliminary.html#general-workflow">FCSの一般的なワークフロー</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../001_preliminary.html#profiles">Profiles（プロファイル）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../001_preliminary.html#rom">ROM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../001_preliminary.html#baseline-profiles">Baseline profiles（ベースライン プロファイル）</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../002_processing.html">FCS内部の処理</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../002_processing.html#id1">1. フェイシャルトラッキング</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../002_processing.html#id2">2. 顔の向きを補正</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../002_processing.html#id3">3. トラッキング情報の取捨選択</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../002_processing.html#id4">ブレンドシェイプの選択方法</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../002_processing.html#id5">4. キャラクターの表情に変換</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">検証</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="001_challenging_scenarios.html">様々な条件下での検証</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="001_challenging_scenarios.html#background">背景</a></li>
+<li class="toctree-l3"><a class="reference internal" href="001_challenging_scenarios.html#scenario-detail">検証内容について</a></li>
+<li class="toctree-l3"><a class="reference internal" href="001_challenging_scenarios.html#gallery">動画ギャラリー</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="002_pipeline_comparison.html">パイプラインの比較</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="002_pipeline_comparison.html#table-of-contents">目次</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="002_pipeline_comparison.html#just-tell-me-which-pipeline-i-should-use">どのパイプラインを使用すべきか フローチャート</a></li>
+<li class="toctree-l4"><a class="reference internal" href="002_pipeline_comparison.html#pipeline">パイプライン一覧</a></li>
+<li class="toctree-l4"><a class="reference internal" href="002_pipeline_comparison.html#experiment-scenarios">検証詳細</a></li>
+<li class="toctree-l4"><a class="reference internal" href="002_pipeline_comparison.html#gallery">動画ギャラリー</a></li>
+<li class="toctree-l4"><a class="reference internal" href="002_pipeline_comparison.html#conclusion">結論</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #2980B9" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">FCS Doc Advanced</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content style-external-links">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">以前のバージョン（25.07）との比較</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/experiments/003_vs_previous.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>以前のバージョン（25.07）との比較<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<p>FCS 25.10では、プラスのパイプライン（RP+, Robust+）の追加に加えて、既存のパイプライン（Rich、RP）の強化も行いました。
+具体的には、トラッキング情報を取捨選択する際に、より適切な情報が使用されるように調整しました。
+そのため、ランドマークの出力が同じであっても、より高品質なアニメーションを生成できるようになりました。
+このページではこちらが用意したいくつかの検証結果をこちらで公開いたします。
+ご自身のデータで確認したい場合、25.07含め、以前のバージョンのセッションをエクスポートし、バックアップしてから、25.10でセッションを開き、処理し直せば強化されたパイプラインの結果を確認できると思います。</p>
+<section id="gallery">
+<h2>Gallery<a class="headerlink" href="#gallery" title="Link to this heading"></a></h2>
+<p>こちらのギャラリーではツークンで評価で使っている動画の一部を、他の条件を維持したまま、パイプラインのバージョンのみを変更した比較動画になります。
+左から順にアクターの動画、25.07で出力した動画、25.10で出力した動画となっています。</p>
+<details>
+  <summary >Baseline Only</summary>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Rich</p></th>
+<th class="head"><p>RP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/baseline/Rich/down_normal_t01_combined.mp4" type="video/mp4"></video></p></td>
+<td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/baseline/RP/down_normal_t01_combined.mp4" type="video/mp4"></video></p></td>
+</tr>
+<tr class="row-odd"><td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/baseline/Rich/Video_45_t01_combined.mp4" type="video/mp4"></video></p></td>
+<td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/baseline/RP/Video_45_t01_combined.mp4" type="video/mp4"></video></p></td>
+</tr>
+<tr class="row-even"><td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/baseline/Rich/Video_facepaint_normal_t01_combined.mp4" type="video/mp4"></video></p></td>
+<td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/baseline/RP/Video_facepaint_normal_t01_combined.mp4" type="video/mp4"></video></p></td>
+</tr>
+</tbody>
+</table>
+</details>
+<br>
+<details>
+  <summary >Baseline + Video Profile 10</summary>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Rich</p></th>
+<th class="head"><p>RP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/rom_plus_10/Rich/down_normal_t01_combined.mp4" type="video/mp4"></video></p></td>
+<td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/rom_plus_10/RP/down_normal_t01_combined.mp4" type="video/mp4"></video></p></td>
+</tr>
+<tr class="row-odd"><td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/rom_plus_10/Rich/Video_45_t01_combined.mp4" type="video/mp4"></video></p></td>
+<td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/rom_plus_10/RP/Video_45_t01_combined.mp4" type="video/mp4"></video></p></td>
+</tr>
+<tr class="row-even"><td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/rom_plus_10/Rich/Video_facepaint_normal_t01_combined.mp4" type="video/mp4"></video></p></td>
+<td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/rom_plus_10/RP/Video_facepaint_normal_t01_combined.mp4" type="video/mp4"></video></p></td>
+</tr>
+</tbody>
+</table>
+</details>
+<br>
+<details>
+  <summary >Video Profile 10 Only</summary>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Rich</p></th>
+<th class="head"><p>RP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/only_video_10/Rich/down_normal_t01_combined.mp4" type="video/mp4"></video></p></td>
+<td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/only_video_10/RP/down_normal_t01_combined.mp4" type="video/mp4"></video></p></td>
+</tr>
+<tr class="row-odd"><td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/only_video_10/Rich/Video_45_t01_combined.mp4" type="video/mp4"></video></p></td>
+<td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/only_video_10/RP/Video_45_t01_combined.mp4" type="video/mp4"></video></p></td>
+</tr>
+<tr class="row-even"><td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/only_video_10/Rich/Video_facepaint_normal_t01_combined.mp4" type="video/mp4"></video></p></td>
+<td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/only_video_10/RP/Video_facepaint_normal_t01_combined.mp4" type="video/mp4"></video></p></td>
+</tr>
+</tbody>
+</table>
+</details>
+<br>
+<details>
+  <summary >Another Actor</summary>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Rich</p></th>
+<th class="head"><p>RP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/another_actor/Rich/01_joy_sample_combined.mp4" type="video/mp4"></video></p></td>
+<td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/another_actor/RP/01_joy_sample_combined.mp4" type="video/mp4"></video></p></td>
+</tr>
+<tr class="row-odd"><td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/another_actor/Rich/02_sadness_sample_combined.mp4" type="video/mp4"></video></p></td>
+<td><p><video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/pipeline_comparison/25.10vs25.07/another_actor/RP/02_sadness_sample_combined.mp4" type="video/mp4"></video></p></td>
+</tr>
+</tbody>
+</table>
+</details>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    Version: 25.10 Lang: jp
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+    
+    <dl>
+      <dt>Languages</dt>
+        
+          <dd><a href="https://ryota-nakajima-toei.github.io/fcs-doc-advanced/25.10/jp/index.html">jp</a></dd>
+        
+          <dd><a href="https://ryota-nakajima-toei.github.io/fcs-doc-advanced/25.10/en/index.html">en</a></dd>
+        
+    </dl>
+    
+    
+    <dl>
+      <dt>Versions</dt>
+      
+        <dd><a href="https://ryota-nakajima-toei.github.io/fcs-doc-advanced/25.10/jp/index.html">25.10</a></dd>
+      
+        <dd><a href="https://ryota-nakajima-toei.github.io/fcs-doc-advanced/25.07/jp/index.html">25.07</a></dd>
+      
+    </dl>
+    
+    <br>
+    </dl>
+  </div>
+</div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
