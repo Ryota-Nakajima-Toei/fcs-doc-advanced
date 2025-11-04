@@ -43,7 +43,7 @@ msgid ""
 "まず、画像からアクターの表情を取得するためにフェイシャルトラッキングを実行します。FCSのオートトラッキング機能では、画像に対してアクターの顔の3次元モデル（アクターモデル）を構築します。これにより、目や口の輪郭や鼻の位置を表す点（ランドマーク）の座標や、表情パラメータ（ARKitブレンドシェイプ）といった情報を取得します。"
 "   "
 "トラッキングに使用するモデルはパイプラインによって異なり、パイプライン名に\"+\"がついているものはツークン研究所の新規独自モデルになります。"
-msgstr "First, facial tracking is started to obtain the actor's facial expression from video images.The FCS auto-tracking system generates the 3D model of the actor's face (actor model) based on video image.As a result, we get facial information, such as the coordinates of contours points of the actor's eyes and mouth, and the position of the nose (landmarks), as well as expression parameters (ARKit blendshapes).<br><br>3D model used for facial tracking varies by pipeline; pipelines with "+" in their name utilize a new proprietary model developed by TOEI Zukun Laboratory."
+msgstr "First, facial tracking is started to obtain the actor's facial expression from video images. The FCS auto-tracking system generates the 3D model of the actor's face (actor model) based on video image. As a result, we get facial information, such as the coordinates of contours points of the actor's eyes and mouth, and the position of the nose (landmarks), as well as expression parameters (ARKit blendshapes).<br><br>3D model used for facial tracking varies by pipeline; pipelines with "+" in their name utilize a new proprietary model developed by TOEI Zukun Laboratory."
 
 #: ../../002_processing.md:40
 msgid "2. 顔の向きを補正"
